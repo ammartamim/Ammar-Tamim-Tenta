@@ -1,0 +1,100 @@
+*{
+    margin: 0;   
+    padding: 0; 
+}
+
+.body {
+    background: url("../img/trap.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;   
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(36, 34, 34, 0.4);
+}
+
+.navbar ul{
+    float: left;
+    margin-left: 20px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: bisque;
+    border-radius: 2px;
+}
+
+.body .center{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+.center h1{
+    font-size: 70px;
+    font-weight: bold;
+    width: 400px;
+    text-align: center;
+}
+
+
+.button{
+    color:bisque;
+    font-size: 20px;
+    font-weight: bold;
+    width: 400px;
+    margin: 30px;
+    padding: 10px;
+    position: absolute;
+    top: 53%;
+    left: 40%;
+    border-style: solid;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: bisque;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 15px;
+    text-align: center;
+    width: auto;
+  }
+
+  .grid-item h2{
+    color: darkviolet;
+}
+
+.grid-item  ol{
+    color:red;
+    
+}
+
+.grid-item  ol li a{
+    color: limegreen;
+}
+
